@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { Bio } from "../../data/constants";
 import {
- 
+  
   LinkedIn,
   
 } from "@mui/icons-material";
@@ -58,10 +58,7 @@ const NavLink = styled.a`
     font-size: 1rem;
   }
 `;
-const SocialMediaIcons = styled.div`
-  display: flex;
-  margin-top: 1rem;
-`;
+
 const SocialMediaIcon = styled.a`
   display: inline-block;
   margin: 0 1rem;
@@ -71,12 +68,6 @@ const SocialMediaIcon = styled.a`
   &:hover {
     color: ${({ theme }) => theme.primary};
   }
-`;
-const Copyright = styled.p`
-  margin-top: 1.5rem;
-  font-size: 0.9rem;
-  color: ${({ theme }) => theme.soft2};
-  text-align: center;
 `;
 
 const Footer = () => {
