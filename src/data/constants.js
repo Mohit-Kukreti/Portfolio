@@ -286,7 +286,7 @@ export const projects = [
     image:
       "https://user-images.githubusercontent.com/31516195/170092193-d24327ca-f035-4074-8fde-57238ef570d6.png",
     category: "web app",
-    github: "https://github.com/Mohit-Kukreti/3D-PORTFOLIO",
+    github: "https://github.com/Mohit-Kukreti/Portfolio",
   },
 ];
 
